@@ -1,0 +1,114 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2">
+  <diagram name="Page-1" id="wi2YEw1XMz7DcCsRU3on">
+    <mxGraphModel dx="1529" dy="1517" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-29" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="228" y="-108" />
+              <mxPoint x="348" y="-108" />
+            </Array>
+            <mxPoint x="228" y="-138" as="sourcePoint" />
+            <mxPoint x="348" y="-46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=diamond;endFill=1;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="228" y="-108" />
+              <mxPoint x="98" y="-108" />
+            </Array>
+            <mxPoint x="227.99999999999977" y="-138" as="sourcePoint" />
+            <mxPoint x="98" y="-46" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Workshop" vertex="1">
+          <mxGeometry height="150" width="160" x="148" y="-290" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-2" parent="HTaW3wYlRreKwe9_XhIN-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- Date: DateTime&lt;div&gt;- BookSessionID: int&lt;/div&gt;&lt;div&gt;- UserBooked: String&lt;/div&gt;&lt;div&gt;- workshopType: String&lt;/div&gt;&lt;div&gt;- roomAndRoomLink: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-3" parent="HTaW3wYlRreKwe9_XhIN-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-4" parent="HTaW3wYlRreKwe9_XhIN-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Scheduling()&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="32" width="160" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Participant" vertex="1">
+          <mxGeometry height="130" width="160" x="-138" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-6" parent="HTaW3wYlRreKwe9_XhIN-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- LibraryMember: String&lt;div&gt;- YearLevel: int&lt;/div&gt;&lt;div&gt;- SessionID: int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-7" parent="HTaW3wYlRreKwe9_XhIN-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-8" parent="HTaW3wYlRreKwe9_XhIN-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ SignUp(SessionID): int" vertex="1">
+          <mxGeometry height="32" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Registration" vertex="1">
+          <mxGeometry height="140" width="200" x="126" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-10" parent="HTaW3wYlRreKwe9_XhIN-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- recordSignUp: String&lt;div&gt;- ParticipantList: List&amp;lt;participant&amp;gt;&lt;/div&gt;&lt;div&gt;- workshopType: String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="200" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-11" parent="HTaW3wYlRreKwe9_XhIN-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-12" parent="HTaW3wYlRreKwe9_XhIN-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ attendanceSession()&lt;div&gt;+ workshopRegistrationType()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="200" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="InPersonWorkshop" vertex="1">
+          <mxGeometry height="110" width="160" x="268" y="-48" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-14" parent="HTaW3wYlRreKwe9_XhIN-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- libraryMember: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-15" parent="HTaW3wYlRreKwe9_XhIN-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-16" parent="HTaW3wYlRreKwe9_XhIN-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ inPersonSignIn()&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ roomDesignation()&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-17" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="OnlinePersonWorkshop" vertex="1">
+          <mxGeometry height="110" width="160" x="18" y="-48" as="geometry">
+            <mxRectangle height="30" width="170" x="18" y="-48" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-18" parent="HTaW3wYlRreKwe9_XhIN-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- libraryMember: String&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-19" parent="HTaW3wYlRreKwe9_XhIN-17" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-20" parent="HTaW3wYlRreKwe9_XhIN-17" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ OnlinePersonSignIn()&lt;div&gt;+ roomDesignation()&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42" width="160" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-21" edge="1" parent="1" source="HTaW3wYlRreKwe9_XhIN-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.679;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="HTaW3wYlRreKwe9_XhIN-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-27" edge="1" parent="1" source="HTaW3wYlRreKwe9_XhIN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.455;entryY=1.036;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;" target="HTaW3wYlRreKwe9_XhIN-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="120" />
+              <mxPoint x="90" y="120" />
+              <mxPoint x="90" y="64" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTaW3wYlRreKwe9_XhIN-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.541;entryY=0.976;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=block;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="226" y="120" />
+              <mxPoint x="355" y="120" />
+            </Array>
+            <mxPoint x="226.00000000000045" y="169.99999999999977" as="sourcePoint" />
+            <mxPoint x="354.55999999999995" y="60.991999999999734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
