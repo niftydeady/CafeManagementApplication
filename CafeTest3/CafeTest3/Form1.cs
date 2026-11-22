@@ -73,5 +73,35 @@ namespace CafeTest3
                 e.Graphics.FillRectangle(brush, pnlHero.ClientRectangle);
             }
         }
+
+        private void lblOurStory_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblSubStory_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlPageContainer_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblHomeMenu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlTableMenu2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblTabViewAll1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
