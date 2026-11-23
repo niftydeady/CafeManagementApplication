@@ -121,11 +121,14 @@
   <data name="dessertsMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dessertsMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="CafeInterior" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CafeInterior.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="handshakes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\handshakes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Iced Caramel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Iced Caramel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,8 +145,17 @@
   <data name="foodOptionMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\foodOptionMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="breakfastMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\breakfastMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hearticon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hearticon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leaf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tblleaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tblleaf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baglast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baglast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Warm Café Ambiance" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Warm Café Ambiance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,16 +163,25 @@
   <data name="newbag" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\newbag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shopping-bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shopping-bag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coffeebean" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffeebean.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="breakfastMenu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\breakfastMenu.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CafeMan" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CafeMan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="baglast" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\baglast.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="CafeInterior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CafeInterior.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\coffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="coffebeans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffebeans.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shopping-bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shopping-bag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NewsLeafDesign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NewsLeafDesign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

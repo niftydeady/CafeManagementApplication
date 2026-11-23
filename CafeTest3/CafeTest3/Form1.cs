@@ -103,5 +103,45 @@ namespace CafeTest3
         {
 
         }
+
+        private void pnlHomeMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblTblNewsSub1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbltblFreshIngredients_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblFooterSubtitle_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblFooterLinkAboutUs_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblFooterFindSub_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
